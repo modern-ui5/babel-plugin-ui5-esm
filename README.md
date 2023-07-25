@@ -27,8 +27,8 @@ Add it to your Babel configuration:
 ## How Does it Work?
 
 This plugin will detect any imports that start with `sap/` and transforms it
-into a module with an top-level await call to `sap.ui.require`. For example, say
-we have the following import:
+into an import of a temporary module with a top-level await call to
+`sap.ui.require`. For example, say we have the following import:
 
 ```ts
 import Button from "sap/m/Button";
