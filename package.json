@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-ui5-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Babel plugin that transforms ES module-style UI5 imports into UI5-style requires",
   "main": "./dist/main.js",
   "type": "module",
