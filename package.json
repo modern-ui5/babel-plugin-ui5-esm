@@ -1,0 +1,43 @@
+{
+  "name": "babel-plugin-ui5-esm",
+  "version": "1.0.0",
+  "description": "A Babel plugin that transforms ES module-style UI5 imports into UI5-style requires",
+  "main": "./dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.build.json",
+    "test": "tsc --project ./tsconfig.test.json && mocha \"./test_dist/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modern-ui5/babel-plugin-ui5-esm.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "ui5",
+    "sapui5",
+    "openui5",
+    "module",
+    "esm",
+    "import",
+    "require"
+  ],
+  "author": "Yichuan Shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/modern-ui5/babel-plugin-ui5-esm/issues"
+  },
+  "homepage": "https://github.com/modern-ui5/babel-plugin-ui5-esm#readme",
+  "peerDependencies": {
+    "@babel/core": "7.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@types/babel__core": "^7.20.1",
+    "@types/mocha": "^10.0.1",
+    "babel-plugin-tester": "^11.0.4",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
+  }
+}
