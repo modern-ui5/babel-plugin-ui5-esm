@@ -19,7 +19,7 @@ Add it to your Babel configuration:
 ```ts
 {
   ...
-  "plugins": ["ui5-esm"],
+  "plugins": ["babel-plugin-ui5-esm"],
   ...
 }
 ```
